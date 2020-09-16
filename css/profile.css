@@ -1,0 +1,132 @@
+﻿body{
+  color:#60b6ff;
+  background:#000;
+}
+
+.wrapper{
+  width:300px;
+  height:460px;
+  color:#60b6ff;
+  background:#000;
+  font-family:"Century Gothic", Arial, sans-serif;
+  box-sizing:border-box;
+  margin:0 auto;
+ border: 1px inset #60b6ff;
+}
+
+/* Student Details (Read-Only) */
+.student-details{
+  height:0;
+  text-align:center;
+  transition:all .25s ease-in-out;
+  overflow:hidden;
+  opacity:0;
+}
+
+.student-details.expanded{
+  height:290px;
+  padding-bottom:30px;
+  opacity:1;
+}
+
+.gravatar{
+  width:200px;
+  height:200px;
+  padding-top:30px;
+  margin:0 auto;
+  /* background:#aaa url('http://download4u.in/wp-content/uploads/2014/09/Batman-Arkham-Origins.png') center center;
+  border-radius:100%; */
+}
+
+.gravatar img{
+  border-radius:50%;
+}
+
+.student-name,.student-email{
+  margin:5px 0 0 0;
+}
+
+.student-email{
+  color:#60b6ff;
+}
+
+/* Tabbed Content */
+.tabs{
+  background:#000;
+  padding:10px;
+  margin-left:50px;
+ 
+}
+
+.tabs:hover{
+  cursor:pointer;
+}
+
+.tabs h3{
+  margin:0;
+}
+
+.tab-content{
+  height:0;
+  box-sizing:border-box;
+  transition:height .25s ease-in-out;
+  overflow:hidden;
+}
+
+.tab-content.expanded{
+  height:320px;
+}
+
+.tab-content form{
+  padding:15px 20px;
+}
+
+.tab-content .form-control{
+  padding-bottom:15px;
+}
+
+.tab-content .form-control label{
+  display:block;
+}
+
+.tab-content .form-control .textbox{
+  width:100%;
+  font-size:14px;
+  border:1px solid ##60b6ff;
+  border-radius:5px;
+  box-sizing:border-box;
+  padding:10px;
+  margin:5px 0;
+  display:block;
+  background:#000;
+  color:#60b6ff;
+}
+
+.tab-content .form-buttons button{
+  font-size:14px;
+  border-radius:5px;
+  padding:10px;
+}
+
+.primary-btn{
+  width:80%;
+  margin-left:10%;
+  color:#000;
+  background-image:linear-gradient(to bottom, #5cb6f1, #0d649d);
+  border:1px solid #0e6aa6;
+  display:block;
+}
+
+.secondary-btn{
+  color:#0e6aa6;
+  background-image:linear-gradient(to bottom, #000, #60b6ff);
+  border:1px solid #d0d0d0;
+}
+
+/* Typography */
+h1,h2, h3,h4,h5,h6{
+  font-weight:normal;
+}
+.textbox{
+  border:1px inset #60b6ff;
+}

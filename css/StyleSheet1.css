@@ -1,0 +1,72 @@
+﻿body {
+    background-image: url('images/lucky.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+.simple_form {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+#registration {
+    text-align: center;
+    background-color: Highlight;
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+
+#Button1 {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+#TextBox1 {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#TextBox2 {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#TextBox3 {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#TextBox4 {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#ph {
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+}
+
+#phs {
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#RadioButton1 {
+    color: white;
+    font-size: 18px;
+}
+
+#RadioButton2 {
+    color: white;
+    font-size: 18px;
+}

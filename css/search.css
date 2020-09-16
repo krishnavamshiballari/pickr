@@ -1,0 +1,210 @@
+﻿/* ==============================
+	$-Variables
+============================== */
+/* ==============================
+	$-Mixins
+============================== */
+/* ==============================
+	$-Resets
+============================== */
+html,
+body {
+  font-size: 16px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #60b6ff;
+}
+
+/* main ie fix */
+main {
+  display: block;
+}
+
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: black;
+}
+
+/* highlight colors */
+::-moz-selection {
+  background-color: #60b6ff;
+  color: white;
+}
+
+::selection {
+  background-color: #60b6ff;
+  color: white;
+}
+
+/* anchor links */
+a {
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+
+/* form elements */
+legend {
+  color: inherit;
+}
+
+select,
+textarea,
+input,
+button {
+  max-width: 100%;
+  min-height: 2.25rem;
+  padding: .375rem;
+  border: 1px solid #ccc;
+  margin: 0;
+  background-color: white;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+input[type=submit],
+input[type=button],
+input[type=reset],
+button {
+  min-height: 2.25rem;
+  border-radius: 4px;
+  background-color: #60b6ff;
+  color: white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-transition: opacity 100ms ease-in-out;
+  transition: opacity 100ms ease-in-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+button:hover {
+  opacity: .75;
+}
+
+input[type=file],
+input[type=color],
+input[type=image] {
+  padding: 0;
+  background-color: inherit;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  background-color: inherit;
+}
+
+select {
+  height: 2.25rem;
+}
+
+/* ==============================
+	$-Modules
+============================== */
+/* clearfix */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* inline block */
+.ib {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ib-m {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ==============================
+	$-Styles
+============================== */
+/**
+ * Search
+ */
+.search {
+  overflow: hidden;
+}
+
+.form {
+  float: left;
+  margin-right: 5px;
+  margin-left: 0px;
+    width: 569px;
+}
+.form input {
+  float: left;
+}
+.form input.input {
+  width: 300px;
+  padding-right: 2.25rem;
+}
+.form input.btn {
+  width: 2.25rem;
+  margin-left: -2.25rem;
+  background-color: transparent;
+  color: inherit;
+}
+
+.label,
+.dismiss {
+  float: left;
+  padding-left: 1px;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-transition: opacity 100ms ease-in-out;
+  transition: opacity 100ms ease-in-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.label:hover,
+.dismiss:hover {
+  opacity: 0.75 !important;
+}
+.label i,
+.dismiss i {
+  line-height: 2.25rem;
+}
+.label span,
+.dismiss span {
+  line-height: 2.25rem;
+}
+
+.dismiss {
+  display: none;
+  opacity: 0;
+}

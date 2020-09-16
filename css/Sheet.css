@@ -1,0 +1,35 @@
+﻿body{
+  background:#000;
+  color:#60b6ff;
+}
+
+.f-cointainer{
+  border:1px inset #60b6ff;
+  box-shadow:4px inset #60b6ff;
+  height:400px;
+  width:600px;
+  margin-left:250px;
+  margin-top:0px;
+  border-radius:25px;
+  padding:20px;
+}
+
+select, .c-box{
+  background:#000;
+  margin:10px;
+  color:#60b6ff;
+  border:0px ;
+  border-radius:5px;
+  height:30px;
+  width:90%;
+  padding:5px;
+  
+}
+
+label{
+  padding:5px;
+  background:#000;
+  margin:10px;
+  color:#60b6ff
+
+}
